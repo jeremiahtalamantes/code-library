@@ -35,6 +35,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             $this->uuid = $uuid;            
         }
 
+        /**
+         * Setters & Getters
+         */
+
+
+         
+        /**
+         * Member Functions
+         */
+
 
         private function _generateUUID()
         {
