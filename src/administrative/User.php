@@ -38,9 +38,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         /**
          * Setters & Getters
          */
+        public function setUsername($username)
+        {
+            $this->username = $username;
+        }
 
+        public function getUsername()
+        {
+            return $this->username;
+        }
 
-         
+        public function setFirstName($first_name)
+        {
+            $this->first_name = $first_name;
+        }
+
+        public function getFirstName()
+        {
+            return $this->first_name;
+        }
+        
+
         /**
          * Member Functions
          */
