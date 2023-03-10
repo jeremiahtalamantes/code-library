@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
  * 
- * Users.php | OOP Class for Users for use in CI
+ * Users.php | OOP Class for Users for use in CI 3
  * 
  */
 
@@ -78,12 +78,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             return $this->uuid;
         }
 
-
-
         /**
          * Member Functions
          */
 
+        public function createUser()
+        {
+            
+        }
 
         private function _generateUUID()
         {
