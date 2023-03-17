@@ -1,5 +1,7 @@
 <?php 
 
+namespace App\API;
+
 /**
  * API.php | Signing/validating requests
  */
